@@ -1,0 +1,496 @@
+@charset "UTF-8";
+.brandContain *{
+	margin: 0px;
+	padding: 0px;
+	/*font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";*/
+	-webkit-text-size-adjust: 100%;
+}
+.brandContain *, .brandContain *:before, .brandContain *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+    font-weight: normal;
+}
+.brandContain img{
+    vertical-align: bottom;
+    width: 100%;
+}
+.brandContain{
+    
+}
+.brandContain li{
+    list-style-image: none;
+    list-style-type: none;
+}
+.brandContain .contentsWrap{
+    background-color: #EE6100;
+    padding: 40px;
+}
+.brandContain .contentsWrap .block{
+    margin-bottom: 50px;
+}
+.brandContain .contentsWrap .block:last-child{
+    margin-bottom: 0;
+}
+.brandContain .contentsWrap .blcTit{
+    border-radius: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(270deg,rgba(143,69,22,1.00) 0%,rgba(177,84,25,1.00) 28.76%,rgba(64,34,10,1.00) 60.41%,rgba(23,13,4,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(143,69,22,1.00) 0%,rgba(177,84,25,1.00) 28.76%,rgba(64,34,10,1.00) 60.41%,rgba(23,13,4,1.00) 100%);
+    border: 2px solid #170D04;
+    text-shadow: 0px 0px 5px #493124,0px 0px 5px #493124,0px 0px 5px #493124,0px 0px 5px #493124;
+    margin-bottom: 10px;
+}
+.brandContain .contentsWrap .inner{
+    border: 2px solid #5D331D;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.brandContain .contentsWrap .inner p,.brandContain .contentsWrap .inner dd,.brandContain .contentsWrap .inner dt{
+    color: #6C3926;
+    font-size: 16px;
+    line-height: 30px;
+}
+.brandContain .contentsWrap .inner p.ind{
+    text-indent: -0.5em;
+    padding-left: 0.5em;
+}
+.brandContain .contentsWrap .inner .topArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.brandContain .contentsWrap .inner .topArea p{
+    width: 70%;
+}
+.brandContain .contentsWrap .inner .topArea .image{
+    width: 30%;
+}
+
+
+
+
+.brandContain .contentsWrap .inner .topPrdArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brandContain .contentsWrap .inner .topPrdArea .topPrd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brandContain .contentsWrap .inner .topPrdArea .area1{
+    width:  42%;
+}
+.brandContain .contentsWrap .inner .topPrdArea .area2{
+    width:  55%;
+}
+.brandContain .contentsWrap .inner .topPrdArea .topPrd .image{
+    width: 35%;
+}
+.brandContain .contentsWrap .inner .topPrdArea .topPrd p.body{
+    width: 65%;
+    color: #7B7B7B;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.brandContain .contentsWrap .inner .recipeCat{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.brandContain .contentsWrap .inner .recipeCat p.title{
+    width: 25%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+    padding: 10px 15px;
+    background-image: -webkit-linear-gradient(147deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 17%,rgba(64,5,1,1.00) 17%,rgba(64,5,1,1.00) 100%);
+    background-image: linear-gradient(303deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 17%,rgba(64,5,1,1.00) 17%,rgba(64,5,1,1.00) 100%);
+}
+.brandContain .contentsWrap .inner .recipeCat p.body{
+    width: 75%;
+    font-size: 20px;
+}
+
+.brandContain .contentsWrap .inner .recipeblock{
+    margin-bottom: 30px;
+}
+.brandContain .contentsWrap .inner .recipeblock.separate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brandContain .contentsWrap .inner .recipeblock.separate .image{
+    width: 50%;
+}
+.brandContain .contentsWrap .inner .recipeblock.separate .discription{
+    width: 48%;
+}
+.brandContain .contentsWrap .inner .recipeblock .discription .title{
+    background-color: #D68900;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.brandContain .contentsWrap .inner .recipeblock .discription a{
+    display: block;
+    border: 1px solid #ff8f39;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 70%;
+}
+.brandContain .contentsWrap .inner .recipeblock .discription a p{
+    font-size: 23px;
+    color: #fff;
+    background-color: #D7A21D;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    border: 2px solid #ffff62;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,217,33,1.00) 0%,rgba(255,170,74,1.00) 43.48%,rgba(253,131,48,1.00) 53.30%,rgba(255,192,40,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,217,33,1.00) 0%,rgba(255,170,74,1.00) 43.48%,rgba(253,131,48,1.00) 53.30%,rgba(255,192,40,1.00) 100%);
+    text-shadow: 2px 2px 3px #444;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+}
+
+
+.brandContain .contentsWrap .inner .recipeblock .discription .lists dl{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.brandContain .contentsWrap .inner .recipeblock .discription .lists dt{
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.brandContain .contentsWrap .inner .prdTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.brandContain .contentsWrap .inner .prdTop .image{
+    width: 30%;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc{
+    width: 65%;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .name{
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #6C3926;
+    margin-bottom: 10px;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts p{
+    margin-bottom: 20px;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a .spr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a p{
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #444444;
+}
+
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a.brown{
+    background-image: -webkit-linear-gradient(270deg,rgba(211,174,106,1.00) 0%,rgba(164,116,22,1.00) 45.35%,rgba(121,80,0,1.00) 57.43%,rgba(172,121,25,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(211,174,106,1.00) 0%,rgba(164,116,22,1.00) 45.35%,rgba(121,80,0,1.00) 57.43%,rgba(172,121,25,1.00) 100%);
+    border: 1px solid #936205;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a.red_brown{
+    background-image: -webkit-linear-gradient(270deg,rgba(158,73,73,1.00) 0%,rgba(136,20,20,1.00) 45.35%,rgba(65,0,0,1.00) 57.43%,rgba(93,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(158,73,73,1.00) 0%,rgba(136,20,20,1.00) 45.35%,rgba(65,0,0,1.00) 57.43%,rgba(93,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(158,73,73,1.00) 0%,rgba(136,20,20,1.00) 45.35%,rgba(65,0,0,1.00) 57.43%,rgba(93,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(158,73,73,1.00) 0%,rgba(136,20,20,1.00) 45.35%,rgba(65,0,0,1.00) 57.43%,rgba(93,0,0,1.00) 100%);
+    border: 1px solid #730000;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a.green{
+    background-image: -webkit-linear-gradient(270deg,rgba(196,233,199,1.00) 0%,rgba(126,208,132,1.00) 45.35%,rgba(51,130,63,1.00) 57.43%,rgba(103,182,109,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(196,233,199,1.00) 0%,rgba(126,208,132,1.00) 45.35%,rgba(51,130,63,1.00) 57.43%,rgba(103,182,109,1.00) 100%);
+    border: 1px solid #498751;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a.orange{
+    background-image: -webkit-linear-gradient(270deg,rgba(246,168,114,1.00) 0%,rgba(221,110,31,1.00) 45.35%,rgba(124,51,1,1.00) 57.49%,rgba(187,77,0,1.00) 99.72%);
+    background-image: -moz-linear-gradient(270deg,rgba(246,168,114,1.00) 0%,rgba(221,110,31,1.00) 45.35%,rgba(124,51,1,1.00) 57.49%,rgba(187,77,0,1.00) 99.72%);
+    background-image: -o-linear-gradient(270deg,rgba(246,168,114,1.00) 0%,rgba(221,110,31,1.00) 45.35%,rgba(124,51,1,1.00) 57.49%,rgba(187,77,0,1.00) 99.72%);
+    background-image: linear-gradient(180deg,rgba(246,168,114,1.00) 0%,rgba(221,110,31,1.00) 45.35%,rgba(124,51,1,1.00) 57.49%,rgba(187,77,0,1.00) 99.72%);
+    border: 1px solid #CC4804;
+}
+.brandContain .contentsWrap .inner .prdTop .prdDisc .texts a.black{
+    background-image: -webkit-linear-gradient(270deg,rgba(129,129,129,1.00) 0%,rgba(86,86,86,1.00) 45.35%,rgba(0,0,0,1.00) 57.43%,rgba(51,51,51,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(129,129,129,1.00) 0%,rgba(86,86,86,1.00) 45.35%,rgba(0,0,0,1.00) 57.43%,rgba(51,51,51,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(129,129,129,1.00) 0%,rgba(86,86,86,1.00) 45.35%,rgba(0,0,0,1.00) 57.43%,rgba(51,51,51,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(129,129,129,1.00) 0%,rgba(86,86,86,1.00) 45.35%,rgba(0,0,0,1.00) 57.43%,rgba(51,51,51,1.00) 100%);
+    border: 1px solid #000;
+}
+
+.brandContain .contentsWrap .inner .prdList{
+    margin-top: 50px;
+}
+.brandContain .contentsWrap .inner .prdList .listSet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brandContain .contentsWrap .inner .prdList .title{
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #6C3926;
+    margin-bottom: 10px;
+}
+.brandContain .contentsWrap .inner .prdList .listSet .list{
+    width: 28%;
+}
+.brandContain .contentsWrap .inner .prdList .listSet .list .name{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+@media only screen and (max-width: 767px) {
+    .brandContain .contentsWrap{
+        padding: 4vw;
+    }
+    .brandContain .contentsWrap .block{
+        margin-bottom: 10vw;
+    }
+    
+    .brandContain .contentsWrap .blcTit{
+        border-radius: 3vw;
+        height: 12vw;
+        padding: 0;
+        font-size: 4.5vw;
+        text-shadow: 0 0 1vw #493124,0 0 1vw #493124,0 0 1vw #493124,0 0 1vw #493124;
+        margin-bottom: 2vw;
+        justify-content: center;
+    }
+    .brandContain .contentsWrap .inner{
+        border: 1px solid #5D331D;
+        padding: 5vw;
+        border-radius: 3vw;
+    }
+
+    .brandContain .contentsWrap .inner p,.brandContain .contentsWrap .inner dd,.brandContain .contentsWrap .inner dt{
+        color: #6C3926;
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
+    
+    .brandContain .contentsWrap .inner .topArea{
+        display: block;
+        margin-bottom: 10vw;
+    }
+
+    .brandContain .contentsWrap .inner .topArea p{
+        width: 100%;
+    }
+    .brandContain .contentsWrap .inner .topArea .image{
+        width: 70%;
+        margin: auto;
+    }
+
+
+
+
+    .brandContain .contentsWrap .inner .topPrdArea{
+        display: block;
+    }
+    .brandContain .contentsWrap .inner .topPrdArea .topPrd{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5vw;
+    }
+    .brandContain .contentsWrap .inner .topPrdArea .area1{
+        width:  100%;
+    }
+    .brandContain .contentsWrap .inner .topPrdArea .area2{
+        width:  100%;
+    }
+    .brandContain .contentsWrap .inner .topPrdArea .topPrd .image{
+        width: 40%;
+    }
+    .brandContain .contentsWrap .inner .topPrdArea .topPrd p.body{
+        width: 60%;
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+
+    .brandContain .contentsWrap .inner .recipeCat{
+        display: block;
+        margin-bottom: 5vw;
+    }
+    .brandContain .contentsWrap .inner .recipeCat p.title{
+        width: 100%;
+        font-size: 5vw;
+        padding: 10px 15px;
+        background-image:none;
+        background-color: #400501;
+        border-radius: 3vw;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+    .brandContain .contentsWrap .inner .recipeCat p.body{
+        width: 100%;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .brandContain .contentsWrap .inner .recipeblock{
+        margin-bottom: 30px;
+    }
+    .brandContain .contentsWrap .inner .recipeblock.separate{
+        display: block;
+    }
+    .brandContain .contentsWrap .inner .recipeblock.separate .image{
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+    .brandContain .contentsWrap .inner .recipeblock.separate .discription{
+        width: 100%;
+    }
+    .brandContain .contentsWrap .inner .recipeblock .discription .title{
+        font-size: 3.5vw;
+        padding: 2vw;
+        margin-bottom: 2vw;
+    }
+    .brandContain .contentsWrap .inner .recipeblock .discription a{
+        margin-top: 3vw;
+        border-radius: 2vw;
+        width: 100%;
+    }
+    .brandContain .contentsWrap .inner .recipeblock .discription a p{
+        font-size: 5vw;
+        padding: 3vw;
+        border-radius: 2vw;
+        text-shadow: 0.5vw 0.5vw 0.5vw #444;
+    }
+
+
+    .brandContain .contentsWrap .inner .recipeblock .discription .lists dl{
+        display: block;
+        margin-bottom: 4vw;
+    }
+    .brandContain .contentsWrap .inner .recipeblock .discription .lists dt{
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 3.5vw;
+    }
+
+    .brandContain .contentsWrap .inner .prdTop{
+        display: block;
+        margin-bottom: 20vw;
+    }
+    .brandContain .contentsWrap .inner .prdTop .image{
+        width: 100%;
+    }
+    .brandContain .contentsWrap .inner .prdTop .prdDisc{
+        width: 100%;
+        margin-top: 3vw;
+    }
+    .brandContain .contentsWrap .inner .prdTop .prdDisc .name{
+        font-size: 4vw;
+        margin-bottom: 2vw;
+        text-align: center;
+    }
+    .brandContain .contentsWrap .inner .prdTop .prdDisc .texts p{
+        margin-bottom: 4vw;
+    }
+    .brandContain .contentsWrap .inner .prdTop .prdDisc .texts a{
+        width: 100%;
+        padding:4vw 0;
+        border-radius: 2vw;
+    }
+    .brandContain .contentsWrap .inner .prdTop .prdDisc .texts a .spr{
+        width: 6vw;
+        height: 6vw;
+        font-size: 3vw;
+        margin-right: 1vw;
+    }
+    .brandContain .contentsWrap .inner .prdTop .prdDisc .texts a p{
+        font-size: 4vw;
+    }
+
+
+    .brandContain .contentsWrap .inner .prdList{
+        margin-top: 0;
+    }
+    .brandContain .contentsWrap .inner .prdList .listSet{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .brandContain .contentsWrap .inner .prdList .title{
+        font-weight: bold;
+        font-size: 4vw;
+        margin-bottom: 2vw;
+        text-align: center;
+    }
+    .brandContain .contentsWrap .inner .prdList .listSet .list{
+        width: 49%;
+    }
+    .brandContain .contentsWrap .inner .prdList .listSet .list .name{
+        text-align: center;
+        font-weight: bold;
+
+    }
+    
+
+}
